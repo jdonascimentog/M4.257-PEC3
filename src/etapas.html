@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shelby</title>
+        <link rel="stylesheet" href="./assets/styles/styles.css" />
+        <script async type="module" src="./assets/scripts/app.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav id="nav" class="header__nav">
+                <a class="header__element header__element_no_hover" href="./index.html" aria-label="Portada"
+                    ><img src="./assets/img/logo.png" class="logo" alt="Logotipo Shelby" />&nbsp;Shelby</a
+                >
+                <a class="header__element header__element--right" href="./enlaces.html" aria-label="Enlaces de interés">Enlaces de interés</a>
+                <a class="header__element header__element--right header__element--checked" href="./etapas.html" aria-label="Etapas">Etapas</a>
+                <a class="header__element header__element--right" href="./presentacion.html" aria-label="Presentación">Presentación</a>
+                <a class="header__element header__element--right " href="./index.html" aria-label="Portada">Portada</a>
+                <a class="header__icon" href="javascript:void(0);" aria-label="Abrir menú" onclick="openMenu()"><i class="fa-solid fa-bars"></i></a>
+            </nav>
+        </header>
+        <div class="banner__image banner__etapas">
+        </div>
+        <div class="container">
+            <div class="col-6">
+                <h1 class="title">Carroll Shelby, la leyenda</h1>
+                <h2 class="subtitle">Etapas</h2>
+            </div>
+            <div class="col-6">
+                <section class="seccion">
+                    <article class="seccion__contenido">
+                        <h3>Biografía</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Carroll Hall Shelby (11 de enero de 1923 - 10 de mayo de 2012) fue un diseñador de automóviles, piloto de carreras y empresario estadounidense. Shelby es mejor conocido por su participación en el AC Cobra y el Mustang para Ford Motor Company, que modificó a fines de la década de 1960 y principios de la de 2000. Estableció Shelby American en 1962 para fabricar y comercializar vehículos de alto rendimiento. Su autobiografía, The Carroll Shelby Story, se publicó en 1967. Como piloto de carreras, su punto culminante fue como copiloto de la entrada ganadora de las 24 Horas de Le Mans de 1959.</p>
+                                    <picture>
+                                        <source media="(max-width: 800px)" srcset="./assets/img/carroll-shelby-volante-coches-2647593@mobile.jpg">
+                                        <source media="(min-width: 801px)" srcset="./assets/img/carroll-shelby-volante-coches-2647593@tablet.jpg">
+                                        <img class="img__responsive" src="./assets/img/carroll-shelby-volante-coches-2647593@tablet.jpg" loading="lazy" alt="Carroll Shelby tras un volante">
+                                    </picture>
+                                    <p>
+                                        <ul class="seccion__listado">
+                                            <li><a href="./vida.html">Vida temprana</a></li>
+                                            <li><a href="./precarreras.html">Pre-carreras</a></li>
+                                            <li><a href="./piloto.html">Carrera como piloto</a></li>
+                                            <li><a href="./constructor.html">Carrera como constructor</a></li>
+                                            <li><a href="./proyectos.html">Proyectos Ford-Shelby</a></li>
+                                            <li><a href="./otros.html">Otros proyectos</a></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="align--center video__container">
+                            <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/t9MjY-mpspI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 logo_footer_div">
+                        <img src="./assets/img/logo.png" loading="lazy" class="logo-footer" aria-label="Logotipo Shelby" />
+                    </div>
+                    <div class="col-2">
+                        <h3><a href="./index.html">Portada</a></h3>
+                        <h3><a href="./presentacion.html">Presentación</a></h3>
+                    </div>
+                    <div class="col-2">
+                        <h3><a href="./etapas.html">Etapas</a></h3>
+                        <h3><a href="./enlaces.html">Enlaces de interés</a></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="copyright"><i class="fa-regular fa-copyright"></i>&nbsp;M4.257 - Herramientas HTML y CSS - jdonascimentog</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

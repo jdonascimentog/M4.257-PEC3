@@ -1,0 +1,466 @@
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes wave_1 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    60% {
+        transform: scale(1.5);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes wave_2 {
+    0% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+    60% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+}
+
+@keyframes wave_3 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes wave_4 {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: #f1f1f1;
+    background: #1f1f1f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    line-height: 1.6;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    color: #95e7b8;
+}
+.align--center {
+    text-align: center;
+}
+
+.title {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f1f1f1;
+}
+
+.subtitle {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #95e7b8;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 800px) {
+    .title {
+        font-size: 36px;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+}
+
+.container {
+    background: #1f1f1f;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex: 0 0 100%;
+    padding: 1rem;
+}
+
+.col-5 {
+    flex: 0 0 calc(100% / 6 * 5);
+    padding: 1rem;
+}
+
+.col-4 {
+    flex: 0 0 calc(100% / 6 * 4);
+    padding: 1rem;
+}
+
+.col-3 {
+    flex: 0 0 calc(100% / 6 * 3);
+    padding: 1rem;
+}
+
+.col-2 {
+    flex: 0 0 calc(100% / 6 * 2);
+    padding: 1rem;
+}
+
+.col-1 {
+    flex: 0 0 calc(100% / 6 * 1);
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        display: inline-block;
+    }
+    .col-6 {
+        flex: 0 0 100%;
+    }
+    .col-5 {
+        flex: 0 0 100%;
+    }
+    .col-4 {
+        flex: 0 0 100%;
+    }
+    .col-3 {
+        flex: 0 0 100%;
+    }
+    .col-2 {
+        flex: 0 0 100%;
+    }
+    .col-1 {
+        flex: 0 0 100%;
+    }
+}
+
+.banner__image {
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.thumbnail {
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+@media screen and (max-width: 800px) {
+    .banner__image {
+        height: 10rem;
+    }
+}
+
+.banner__index {
+    background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2.jpg");
+}
+.banner__presentacion {
+    background-image: url("../img/1967_Ford_Mustang_Shelby_GT-500_Eleanor.jpg");
+}
+.banner__etapas {
+    background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby.jpg");
+}
+.banner__enlaces {
+    background-image: url("../img/ScagliettiCorvette.jpg");
+}
+
+@media screen and (min-width: 800px) {
+    .banner__index {
+        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@tablet.jpg");
+    }
+    .banner__etapas {
+        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@tablet.jpg");
+    }
+    .banner__enlaces {
+        background-image: url("../img/ScagliettiCorvette@tablet.jpg");
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .banner__index {
+        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@mobile.jpg");
+    }
+    .banner__etapas {
+        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@mobile.jpg");
+    }
+    .banner__enlaces {
+        background-image: url("../img/ScagliettiCorvette@mobile.jpg");
+    }
+}
+
+.clip__flecha_derecha {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.clip__flecha_izquierda {
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+.seccion {
+    /*display: flex;*/
+}
+.img__responsive {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .seccion {
+        display: inline-block;
+    }
+    .seccion .seccion__contenido {
+        width: 100%;
+    }
+    .seccion .seccion__lateral {
+        width: 100%;
+    }
+}
+.seccion .seccion-hidden {
+    display: hidden;
+}
+.seccion .seccion-visible {
+    display: block;
+}
+.seccion .seccion__contenido {
+    padding: 1rem;
+    text-align: left;
+}
+.seccion .seccion__contenido h3 {
+    padding: 1rem;
+    text-align: center;
+}
+.seccion .seccion__lateral {
+    margin-left: auto;
+    background-color: #95e7b8;
+    padding: 1rem;
+    text-align: left;
+}
+.seccion .seccion__listado {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.seccion .seccion__listado li {
+    padding-bottom: 10px;
+}
+.seccion .seccion__listado li a {
+    padding: 5px;
+}
+.seccion .seccion-titulo {
+    width: 100%;
+    border-bottom: 2px solid #2ecc71;
+}
+.seccion .seccion__contenido h3 a {
+    padding-left: 2rem;
+    text-align: left;
+    color: #95e7b8;
+}
+
+.header {
+    background: #1f1f1f;
+    box-shadow: 0 0 1px rgba(#1f1f1f, 0.25);
+    color: #f1f1f1;
+    position: sticky;
+    top: 0;
+}
+
+.header__nav {
+    overflow: hidden;
+}
+
+.header__nav .header__element {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 2s ease-out, color 1s ease-out;
+}
+
+.header__nav .header__element--right {
+    float: right;
+}
+
+.header__nav .header__element:hover {
+    background-color: #2ecc71;
+    color: black;
+    transition-duration: 1s;
+}
+
+.header__nav .header__element.header__element_no_hover:hover {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+.header__nav .header__icon {
+    display: none;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header__nav .header__element--checked {
+    background-color: #2ecc71;
+    color: black;
+}
+
+.submenu--checked {
+    background-color: #2ecc71;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .header__nav a:not(:first-child) {
+        display: none;
+    }
+    .header__nav a.header__icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header__nav.responsive {
+        position: relative;
+    }
+    .header__nav.responsive .header__icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header__nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #visual {
+        width: 400;
+        height: 266;
+    }
+}
+
+.footer {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: #1f1f1f;
+    box-shadow: 0 0 1px rgba(#1f1f1f, 0.25);
+    color: #fff;
+    /*position: sticky;*/
+    bottom: 0;
+}
+
+.video__container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 1.2rem;
+}
+
+.logo-footer {
+    width: 6rem;
+}
+
+.logo_footer_div {
+    animation: bounceIn 10s ease-in-out 3s infinite;
+}
+
+#wave_1 {
+    animation: wave_1 20s ease 0s infinite;
+}
+
+#wave_2 {
+    animation: wave_2 15s ease 0s infinite;
+}
+
+#wave_3 {
+    animation: wave_3 10s ease 0s infinite;
+}
+
+#wave_4 {
+    animation: wave_4 15s ease 0s infinite;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}

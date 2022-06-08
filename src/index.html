@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shelby</title>
+        <link rel="stylesheet" href="./assets/styles/styles.css" />
+        <script async type="module" src="./assets/scripts/app.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav id="nav" class="header__nav">
+                <a class="header__element header__element_no_hover" href="./index.html" aria-label="Portada"
+                    ><img src="./assets/img/logo.png" class="logo" alt="Logotipo Shelby" />&nbsp;Shelby</a
+                >
+                <a class="header__element header__element--right" href="./enlaces.html" aria-label="Enlaces de interés">Enlaces de interés</a>
+                <a class="header__element header__element--right" href="./etapas.html" aria-label="Etapas">Etapas</a>
+                <a class="header__element header__element--right" href="./presentacion.html" aria-label="Presentación">Presentación</a>
+                <a class="header__element header__element--right header__element--checked" href="./index.html" aria-label="Portada">Portada</a>
+                <a class="header__icon" href="javascript:void(0);" aria-label="Abrir menú" onclick="openMenu()"><i class="fa-solid fa-bars"></i></a>
+            </nav>
+        </header>
+        <div class="banner__image banner__index"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="title">Carroll Shelby, la leyenda</h1>
+                    <h2 class="subtitle">Portada</h2>
+                </div>
+                <div class="col-6">
+                    <section class="seccion">
+                        <article class="seccion__contenido">
+                            <h3><a href="./presentacion.html">Presentación</a></h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-2 banner__presentacion thumbnail clip__flecha_derecha"></div>
+                                    <div class="col-4">
+                                        <p>
+                                            En esta sección veremos más en profundidad el contenido de este sitio web y las distintas páginas que lo
+                                            componen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <section class="seccion">
+                        <article class="seccion__contenido">
+                            <h3><a href="./etapas.html">Etapas</a></h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p>Dentro de "Etapas" podremos ver la cronología de este piloto y diseñador de automóviles.</p>
+                                    </div>
+                                    <div class="col-2 banner__etapas thumbnail clip__flecha_izquierda"></div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <section class="seccion">
+                        <article class="seccion__contenido">
+                            <h3><a href="./enlaces.html">Enlaces de interés</a></h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-2 banner__enlaces thumbnail clip__flecha_derecha"></div>
+                                    <div class="col-4">
+                                        <p>En esta sección tenemos recopilados todas las fuentes que se han usado para completar este sitio web.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 logo_footer_div">
+                        <img src="./assets/img/logo.png" loading="lazy" class="logo-footer" aria-label="Logotipo Shelby" />
+                    </div>
+                    <div class="col-2">
+                        <h3><a href="./index.html">Portada</a></h3>
+                        <h3><a href="./presentacion.html">Presentación</a></h3>
+                    </div>
+                    <div class="col-2">
+                        <h3><a href="./etapas.html">Etapas</a></h3>
+                        <h3><a href="./enlaces.html">Enlaces de interés</a></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="copyright"><i class="fa-regular fa-copyright"></i>&nbsp;M4.257 - Herramientas HTML y CSS - jdonascimentog</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

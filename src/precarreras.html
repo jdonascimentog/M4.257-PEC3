@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shelby</title>
+        <link rel="stylesheet" href="./assets/styles/styles.css" />
+        <script async type="module" src="./assets/scripts/app.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav id="nav" class="header__nav">
+                <a class="header__element header__element_no_hover" href="./index.html" aria-label="Portada"
+                    ><img src="./assets/img/logo.png" class="logo" alt="Logotipo Shelby" />&nbsp;Shelby</a
+                >
+                <a class="header__element header__element--right" href="./enlaces.html" aria-label="Enlaces de interés">Enlaces de interés</a>
+                <a class="header__element header__element--right header__element--checked" href="./etapas.html" aria-label="Etapas">Etapas</a>
+                <a class="header__element header__element--right" href="./presentacion.html" aria-label="Presentación">Presentación</a>
+                <a class="header__element header__element--right" href="./index.html" aria-label="Portada">Portada</a>
+                <a class="header__icon" href="javascript:void(0);" aria-label="Abrir menú" onclick="openMenu()"><i class="fa-solid fa-bars"></i></a>
+            </nav>
+        </header>
+        <div class="banner__image banner__etapas"></div>
+        <div class="container">
+            <div class="col-6">
+                <h1 class="title">Carroll Shelby, la leyenda</h1>
+                <h2 class="subtitle">Etapas</h2>
+            </div>
+            <div class="col-6">
+                <section class="seccion">
+                    <article class="seccion__contenido">
+                        <h3>Pre-carreras</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-1">
+                                    <aside>
+                                        <ul class="seccion__listado">
+                                            <li><a href="./vida.html">Vida temprana</a></li>
+                                            <li><a class="submenu--checked" href="./precarreras.html">Pre-carreras</a></li>
+                                            <li><a href="./piloto.html">Carrera como piloto</a></li>
+                                            <li><a href="./constructor.html">Carrera como constructor</a></li>
+                                            <li><a href="./proyectos.html">Proyectos Ford-Shelby</a></li>
+                                            <li><a href="./otros.html">Otros proyectos</a></li>
+                                        </ul>
+                                    </aside>
+                                </div>
+                                <div class="col-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p>
+                                                    Shelby perfeccionó sus habilidades de conducción con su automóvil Willys mientras asistía a la
+                                                    escuela secundaria Woodrow Wilson en Dallas, Texas, y se graduó en 1940. Más tarde se matriculó en
+                                                    el Instituto de Tecnología de Georgia en el programa de Ingeniería Aeronáutica. Después de
+                                                    alistarse en el Cuerpo Aéreo del Ejército de los Estados Unidos, Shelby comenzó a entrenarse como
+                                                    piloto en noviembre de 1941. Se graduó con el rango de sargento piloto en septiembre de 1942 en
+                                                    Ellington Field. En diciembre de 1942, fue comisionado como segundo teniente después de recibir
+                                                    entrenamiento de estudiantes de aire, y luego se desempeñó como instructor de vuelo y piloto de
+                                                    pruebas en Beechcraft AT-11 Kansan y Curtiss AT-9 Jeep. Luego voló el Douglas B-18 Bolo, el North
+                                                    American B-25 Mitchell, el Douglas A-26 Invader y finalmente el Boeing B-29 Superfortress en
+                                                    Denver, Colorado, antes de ser dado de baja después del Día V-J.
+                                                </p>
+                                                <p>
+                                                    Después de la guerra, comenzó su propio negocio de camiones de volteo, trabajó brevemente como
+                                                    matón de pozos de petróleo entre 1948 y 1949, y luego como avicultor antes de declararse en
+                                                    quiebra.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 logo_footer_div">
+                        <img src="./assets/img/logo.png" loading="lazy" class="logo-footer" aria-label="Logotipo Shelby" />
+                    </div>
+                    <div class="col-2">
+                        <h3><a href="./index.html">Portada</a></h3>
+                        <h3><a href="./presentacion.html">Presentación</a></h3>
+                    </div>
+                    <div class="col-2">
+                        <h3><a href="./etapas.html">Etapas</a></h3>
+                        <h3><a href="./enlaces.html">Enlaces de interés</a></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="copyright"><i class="fa-regular fa-copyright"></i>&nbsp;M4.257 - Herramientas HTML y CSS - jdonascimentog</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
