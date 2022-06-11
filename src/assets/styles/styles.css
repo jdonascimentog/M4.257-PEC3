@@ -214,39 +214,39 @@ a {
 }
 
 .banner__index {
-    background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2.jpg");
+    background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2.webp");
 }
 .banner__presentacion {
-    background-image: url("../img/1967_Ford_Mustang_Shelby_GT-500_Eleanor.jpg");
+    background-image: url("../img/1967_Ford_Mustang_Shelby_GT-500_Eleanor.webp");
 }
 .banner__etapas {
-    background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby.jpg");
+    background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby.webp");
 }
 .banner__enlaces {
-    background-image: url("../img/ScagliettiCorvette.jpg");
+    background-image: url("../img/ScagliettiCorvette.webp");
 }
 
 @media screen and (min-width: 800px) {
     .banner__index {
-        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@tablet.jpg");
+        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@tablet.webp");
     }
     .banner__etapas {
-        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@tablet.jpg");
+        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@tablet.webp");
     }
     .banner__enlaces {
-        background-image: url("../img/ScagliettiCorvette@tablet.jpg");
+        background-image: url("../img/ScagliettiCorvette@tablet.webp");
     }
 }
 
 @media screen and (min-width: 400px) {
     .banner__index {
-        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@mobile.jpg");
+        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@mobile.webp");
     }
     .banner__etapas {
-        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@mobile.jpg");
+        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@mobile.webp");
     }
     .banner__enlaces {
-        background-image: url("../img/ScagliettiCorvette@mobile.jpg");
+        background-image: url("../img/ScagliettiCorvette@mobile.webp");
     }
 }
 
