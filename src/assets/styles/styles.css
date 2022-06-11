@@ -214,39 +214,39 @@ a {
 }
 
 .banner__index {
-    background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2.webp");
+    background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2.avif");
 }
 .banner__presentacion {
-    background-image: url("../img/1967_Ford_Mustang_Shelby_GT-500_Eleanor.webp");
+    background-image: url("../img/1967_Ford_Mustang_Shelby_GT-500_Eleanor.avif");
 }
 .banner__etapas {
-    background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby.webp");
+    background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby.avif");
 }
 .banner__enlaces {
-    background-image: url("../img/ScagliettiCorvette.webp");
+    background-image: url("../img/ScagliettiCorvette.avif");
 }
 
 @media screen and (min-width: 800px) {
     .banner__index {
-        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@tablet.webp");
+        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@tablet.avif");
     }
     .banner__etapas {
-        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@tablet.webp");
+        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@tablet.avif");
     }
     .banner__enlaces {
-        background-image: url("../img/ScagliettiCorvette@tablet.webp");
+        background-image: url("../img/ScagliettiCorvette@tablet.avif");
     }
 }
 
 @media screen and (min-width: 400px) {
     .banner__index {
-        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@mobile.webp");
+        background-image: url("../img/Martin_Auto_Museum-1965_Shelby_AC_Cobra-2@mobile.avif");
     }
     .banner__etapas {
-        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@mobile.webp");
+        background-image: url("../img/1958-03-28_Sebring_Aston_DBR1-1_Shelby@mobile.avif");
     }
     .banner__enlaces {
-        background-image: url("../img/ScagliettiCorvette@mobile.webp");
+        background-image: url("../img/ScagliettiCorvette@mobile.avif");
     }
 }
 
